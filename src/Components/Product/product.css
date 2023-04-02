@@ -1,0 +1,32 @@
+.product{
+    margin-top: 40px;
+    width: 100%;
+    display:grid;
+    /* height: 800px; */
+    height: 100%;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 2px solid teal; */
+}
+.productC{
+   
+    margin: auto;
+    /* gap: 20px; */
+    height: 20%;
+    margin-bottom: 20px;
+    padding: 20px;
+    width:90%;
+    height:330px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 2px solid red; */
+
+
+}
+
+
+.img{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
